@@ -1,6 +1,6 @@
 function Headlines(api) {
 
-  var contentArray = api.response.content;
+  var contentArray = api.response.results;
   var htmlString = '';
   var idMap = [];
 
