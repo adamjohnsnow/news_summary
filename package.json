@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "guardian-js": "^1.0.8",
     "http-server": "^0.10.0",
     "path": "^0.12.7"

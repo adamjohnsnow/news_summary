@@ -1,8 +1,13 @@
-.headline{
+a { color:red }
+
+#headline{
   font-family: roboto;
   outline: white;
+}
 
-
+#headline :hover {
+  font-size: 130%,
+  color: red;
 }
 
 .title{
@@ -10,17 +15,43 @@
   color: white;
   font-size: 300%;
   background: red;
-
-
-
 }
 
 #app{
   background-color: white;
   border: 5px solid black;
-
 }
 
 html{
   background-color: #daddea;
 }
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            blue;
+  }
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #ddd;
+  color:            brown;
+  }
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  font-weight:      bold;
+  font-size: 150%;
+  /*background-color: blue;
+  color:            #fff;*/
+
+  }
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  underline;
+  font-weight:      bold;
+  background-color: black;
+  color: white;
+  }
