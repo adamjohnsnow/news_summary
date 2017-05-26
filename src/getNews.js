@@ -1,4 +1,4 @@
-const news = "http://content.guardianapis.com/sport?show-fields=all&api-key=6cefe839-68bb-4814-8884-53cedf5c4231";
+const news = "http://content.guardianapis.com/news?show-fields=all&api-key=6cefe839-68bb-4814-8884-53cedf5c4231";
 const xhr = new XMLHttpRequest();
 const method = "GET";
 

@@ -4,13 +4,26 @@
   <head>
     <title>NewsDigest</title>
     <script src="./src/getNews.js"></script>
+    <script src="./src/getTopic.js"></script>
     <script src="./src/headlineModel.js"></script>
     <script src="./src/listeners.js"></script>
   </head>
 
+  <header>
+    <form action="#" method="get" class="topics" id="topics">
+      <input type="radio" name="topic" id="news" checked/>News
+      <input type="radio" name="topic" id="politics"/>Politics
+      <input type="radio" name="topic" id="technology"/>Technology
+      <input type="radio" name="topic" id="weather"/>Australian Weather
+      <input type="radio" name="topic" id="sport"/>Sport
+      <p>
+      <input class="btn" type="submit" value="submit">
+    </form>
+  </header>
   <h1>News Digest</h1>
 
   <body>
+
     <div id="app"></div>
     <script> getNews(); </script>
   </body>
