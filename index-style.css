@@ -1,0 +1,26 @@
+.headline{
+  font-family: roboto;
+  outline: white;
+
+
+}
+
+.title{
+  font-family: keep calm;
+  color: white;
+  font-size: 300%;
+  background: red;
+
+
+
+}
+
+#app{
+  background-color: white;
+  border: 5px solid black;
+
+}
+
+html{
+  background-color: #daddea;
+}

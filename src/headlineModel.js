@@ -5,7 +5,7 @@ function Headlines(api) {
   var idMap = [];
 
   for (var i = 0; i < contentArray.length; ++i) {
-    htmlString = htmlString + '<li><a href="#' + i + '">' + contentArray[i].webTitle + '</a></li>';
+    htmlString = htmlString + '<li class="headline"><a href="#' + i + '">' + contentArray[i].webTitle + '</a></li><br>';
     idMap.push(contentArray[i].id);
   }
     contentArray.idMap = idMap;
